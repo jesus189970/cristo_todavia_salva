@@ -2,5 +2,217 @@ body {
     background-image: url(critsto_todavia_salva1.JPG) ;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+}
+
+
+
+#main {
+    text-align: center;
+    font-size: 2em;
+    color: rgb(177, 38, 38);
+}
+
+#eng-name {
+    color:rgba(36, 101, 161);
+}
+
+.name {
+    margin: 0em 0em 0em 0em;
+}
+
+#eng-name {
+    border-top: solid black .1em;
+    border-radius: 1em;
+}
+
+.church {
+    text-align: center;
+}
+
+#music {
+    text-align: center;
+    margin-top: 5em;
+}
+
+#rows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-grow: 3;
+    margin-bottom: 0em;
+}
+
+.three-rows {
+    border: solid rgb(177, 38, 38) .2em;
+    width: 17em;
+    height: 25em;
+    border-radius: 1rem;
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 0em;
+}
+
+#testh2 {
+
+}
+
+#know {
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+
+#row2 {
+    width: 35em;
+    font-size: 1.4rem;
+    border: solid .2em rgba(36, 101, 161);
+}
+
+#text_above_face {
+    margin-bottom: 0em;
+}
+
+img {
+    width: 8em;
+    display: inline-block;
+}
+
+
+.three-rows p {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+#motivation {
+    width: 100%;
+    border: .2em solid rgb(177, 38, 38);
+    border-radius: 1em;
+    margin-top: 5em;
+    font-size: 1.3em;
+    margin-right: 1em;
+    height: 25em;
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+}
+
+#div-mot {
+    display: inline-flex;
+}
+
+#motivation h2 {
+    text-align: center;
+}
+
+#motivation p {
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+}
+
+#test-p {
+    display: inline-block;
+    font-size: .9em;
+}
+
+#preach1 {
+    width: 10em;
+    height: 10em;
+    margin-left: 1em;
+    margin-top: 4em;
+    border-radius: 5em;
+}
+
+#preach2 {
+    width: 10em;
+    height: 10em;
+    margin-right: 1em;
+    margin-top: 4em;
+    border-radius: 5em;
+}
+
+#test-div {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* media queries*/
+
+@media screen and (max-width: 1150px) {
+    #row2 {
+        width: 20em;
+        height: 28em;
+        font-size: 1.2em;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    body {
+        background-image: url(critsto_todavia_salva1.JPG) ;
+        background-size: 100%;
+        
+    }
+
+    #main {
+        font-size: 1.3em;
+        width: 100%;
+        
+    }
+
+    .church {
+        font-size: 1.2em;
+    }
+
+    #rows {
+        display: block;
+    }
+    .three-rows {
+        display: block;
+    }
+
+    #know {
+        width: 100%;
+        font-size: 1.3em;
+        margin-top: 1em;
+    }
+
+    #row2 {
+        width: 100%;
+        height: 28em;
+        font-size: 1.2em;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    #motivation {
+        width: 10em;
+        width: 100%;
+    }
+
+    #schedule {
+        width: 100%;
+        height: 12em;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    #preach1 {
+        display: none;
+    }
+
+    #preach2 {
+        display: none;
+    }
+
+    @media screen and (max-width: 300px) {
+        #main {
+            font-size: 1.1em;
+            width: 100%;
+            
+        }
+    }
+
 }
