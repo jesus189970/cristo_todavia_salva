@@ -52,6 +52,14 @@ body {
     margin-top: 5em;
     margin-bottom: 0em;
 }
+#schedule {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.flyer {
+    width: 13em;
+}
 
 #testh2 {
 
@@ -139,6 +147,11 @@ img {
 /* media queries*/
 
 @media screen and (max-width: 1150px) {
+    body {
+        background-image: url(critsto_todavia_salva1.JPG) ;
+        background-size: 100%;
+        
+    }
     #row2 {
         width: 20em;
         height: 28em;
@@ -148,13 +161,15 @@ img {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 
     body {
         background-image: url(critsto_todavia_salva1.JPG) ;
-        background-size: 100%;
-        
+        background-size: 50%;
+        background-attachment: fixed;
+        background-position: top;
     }
+
 
     #main {
         font-size: 1.3em;
@@ -207,7 +222,13 @@ img {
         display: none;
     }
 
-    @media screen and (max-width: 300px) {
+    @media screen and (max-width: 400px) {
+        body {
+            background-image: url(critsto_todavia_salva1.JPG) ;
+            background-size: 100%;
+            background-attachment: fixed;
+            background-position: center;
+        }
         #main {
             font-size: 1.1em;
             width: 100%;
